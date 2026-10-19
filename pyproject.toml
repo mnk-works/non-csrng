@@ -1,0 +1,10 @@
+[project]
+name = "math-random-insecurity-poc"
+version = "0.1.0"
+description = "PoC: recovering V8's Math.random() internal state and predicting future outputs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "z3-solver>=4.13",
+]
